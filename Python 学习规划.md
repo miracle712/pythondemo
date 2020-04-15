@@ -2,6 +2,20 @@
 
 [python学习地址](https://www.runoob.com/python3/python3-tutorial.html)
 
+
+
+
+
+```
+提交更改
+git add .
+git commit -m '修改的东西，这个可以随便写'
+git push origin master 
+
+拉取代码
+git pull origin master 
+```
+
 #### 1. 基础语法的学习。
 
 ##### 1.1 python的编码
