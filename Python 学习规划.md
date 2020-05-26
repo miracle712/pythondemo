@@ -158,6 +158,8 @@ print(b + '\nhello')
 
 print(c[1:3])
 
+d = set()
+
 d = {'a','b','c','d','e','f'}
 
 print(d)
@@ -174,13 +176,7 @@ print(dict.keys())
 
 print(dict.values())
 
-set(d)
 
-d = {'a','b','c','d','e','f'}
-
-print(d)
-
-d.remove('c')
 
 
 

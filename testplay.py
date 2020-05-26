@@ -46,11 +46,14 @@ print(b + '\nhello')
 
 print(c[1:3])
 
+d = set()
+print(d)
 d = {'a','b','c','d','e','f'}
 
 print(d)
 
 d.remove('c')
+
 print(d)
 
 dict = {'key1': 'name', 'value1': '张三', 'key2': 'sex', 'value2': '男'}
