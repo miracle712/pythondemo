@@ -13,10 +13,12 @@ computer = random.choice(jiqiren)
 me = input('请出拳：')
 if (computer == me):
     print("平局啦")
+    
 elif ([computer,me] in win):
     print("你输了")
 else:
     print("你赢了")
 print('电脑出的是：',computer)
+
 
 
