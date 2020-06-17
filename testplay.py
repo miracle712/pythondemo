@@ -106,8 +106,13 @@ while counter <= n:
     print('1到 %d 之和为：%d' % (n,sum))
     print('多少次：',counter)
 '''
-
+'''
 for i in range(7):
     print(" "*(6-i),end="")
     print(" * "*(i+1))
 
+'''
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(str(i) +"*"+str(j)+"="+str(i*j),end =" ")
+    print("\n")
